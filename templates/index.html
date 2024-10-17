@@ -1,0 +1,29 @@
+
+
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <title>NLP Model Training</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/styles.css') }}">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container text-center mt-5">
+        <div class="card shadow">
+            <div class="card-body">
+                <h1 class="mb-4 animate__animated animate__fadeInDown">Welcome to the World of Text Generation</h1>
+                <p class="lead mb-4 text-muted">Train your model and let the magic of words unfold.</p>
+                <button id="start-training-btn" class="btn btn-gradient btn-lg animate__animated animate__pulse">Start Model Training</button>
+                <div id="training-status" class="mt-4"></div>
+            </div>
+        </div>
+    </div>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="{{ url_for('static', filename='js/index.js') }}"></script>
+</body>
+</html>
