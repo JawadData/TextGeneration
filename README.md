@@ -1,6 +1,6 @@
 # Automated Text Generation
 
-Welcome to the **Automated Text Generation** project! This NLP model is designed to generate text using bigrams and probabilities, providing an efficient solution for various text generation tasks.
+Welcome to the **Automated Text Generation** project! This NLP model is designed to generate text using bigrams and probabilities.
 
 ---
 
