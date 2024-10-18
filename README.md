@@ -5,4 +5,4 @@ is a nlp model dedicated to generate text using bigrams and probabailities
 python
 
 # setup 
-  clone the 
+  
